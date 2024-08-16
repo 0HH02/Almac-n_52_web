@@ -4514,4 +4514,8 @@ h1 {
     max-width: min-content;
   }
 
+  .mouse-cursor {
+    display: none;
+  }
+
 }
