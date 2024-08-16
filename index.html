@@ -25,6 +25,7 @@
 
     <!-- STYLES -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap"
       rel="stylesheet"
@@ -46,19 +47,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/dark.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/modalboxes.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-
-    <!--[if lt IE 9]>
-      <script type="text/javascript" src="js/modernizr.custom.js"></script>
-    <![endif]-->
     <!-- /STYLES -->
   </head>
 
@@ -70,14 +70,13 @@
     <!-- /PRELOADER -->
 
     <!-- WRAPPER ALL -->
-
     <div
       class="orido_tm_all_wrap w-full float-left clear-both h-auto relative"
       data-magic-cursor="show"
     >
       <!-- MOBILE MENU -->
       <div
-        class=" menuBar orido_tm_mobile_menu w-full h-auto fixed top-0 left-0 hidden z-[10] middle:block"
+        class="menuBar orido_tm_mobile_menu w-full h-auto fixed top-0 left-0 hidden z-[10] middle:block"
       >
         <div
           class="mobile_menu_inner w-full h-auto float-left clear-both bg-white py-[10px] px-[20px]"
@@ -86,12 +85,13 @@
             class="mobile_in w-full h-auto clear-both float-left flex items-center justify-between"
           >
             <div class="logo z-[10]">
-              <a href="#"
-                ><img
+              <a href="#">
+                <img
                   class="logo-movil"
                   src="assets/img/images/logo_appbar.png"
                   alt=""
-              /></a>
+                />
+              </a>
             </div>
             <div class="trigger leading-[0]">
               <div class="hamburger hamburger--slider">
@@ -108,27 +108,34 @@
           <div
             class="dropdown_inner w-full h-auto clear-both float-left py-[25px] px-[20px]"
           >
-            <ul class="anchor_nav">
-              <li class="current float-left w-full">
-                <a class="text-black inline-block p-0 font-medium" href="#home"
-                  >Inicio</a
-                >
-              </li>
-              <li class="float-left w-full">
-                <a
-                  class="text-black inline-block p-0 font-medium"
-                  href="#service"
-                  >Servicios</a
-                >
-              </li>
-              <li class="float-left w-full">
-                <a
-                  class="text-black inline-block p-0 font-medium"
-                  href="#contact"
-                  >Contacto</a
-                >
-              </li>
-            </ul>
+            <div class="nav_mobile_container">
+              <ul class="anchor_nav">
+                <li class="current float-left w-full">
+                  <a
+                    class="text-black inline-block p-0 font-medium"
+                    href="#home"
+                    >Inicio</a
+                  >
+                  <div class="line"></div>
+                </li>
+                <li class="float-left w-full">
+                  <a
+                    class="text-black inline-block p-0 font-medium"
+                    href="#service"
+                    >Servicios</a
+                  >
+                  <div class="line"></div>
+                </li>
+                <li class="float-left w-full">
+                  <a
+                    class="text-black inline-block p-0 font-medium"
+                    href="#contact"
+                    >Contacto</a
+                  >
+                  <div class="line"></div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -144,15 +151,15 @@
           >
             <div class="header_in w-full flex">
               <div class="logo">
-                <a href="#"
-                  ><img
+                <a href="#">
+                  <img
                     class="tamaño-ka"
                     src="assets/img/images/logo_appbar.png"
                     alt=""
-                /></a>
+                  />
+                </a>
               </div>
               <div class="left_menu">
-
                 <div class="menu">
                   <ul class="anchor_nav flex items-center relative">
                     <li class="current inicio">
@@ -167,10 +174,21 @@
                     </li>
                   </ul>
                 </div>
-                <div class="appbar_network_ig appbar_network"><a href="/"><img src="assets/img/images/instagram_logo.png" alt="instagram"></a></div>
-                <div class="appbar_network"><a href="/"><img src="assets/img/images/facebook_logo.png" alt="facebook"></a></div>
+                <div class="appbar_network_ig appbar_network">
+                  <a href="/"
+                    ><img
+                      src="assets/img/images/instagram_logo.png"
+                      alt="instagram"
+                  /></a>
+                </div>
+                <div class="appbar_network">
+                  <a href="/"
+                    ><img
+                      src="assets/img/images/facebook_logo.png"
+                      alt="facebook"
+                  /></a>
+                </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -178,41 +196,40 @@
       <!-- /HEADER -->
 
       <!-- HERO -->
-      <div
-        class="orido_tm_hero w-full min-h-[100vhh] relative float-left"
-        id="home"
-      >
-      <div class="hero_img">
-        <div class="container min-h-[100vhh] ">
-          <div
-            class="content min-h-[100vhh] relative flex items-center justify-between"
-          >
-            <div class="details  pr-[50px]">
-              <div class="short mb-[32px]">
-                <h3 class="main_text_1 main_text">ALMACÉN 52</h3>
-                <h5 class="main_text main_text_2">(GRUPO COMERCIAL S.A)</h4>
-                <p class="main_text main_text_3">Sucursal Habana, Cuba.</p>
-              </div>
-              <div class="text mb-[70px]">
-                <p
-                  class="main_text main_text_4"
-                >
-                Proveedor internacional de alimentos y bebidas, especializados en el mercado cubano. Gracias a nuestra infraestructura internacional y nacional podemos ofrecerle precios muy competitivos.
-                </p>
-              </div>
-              <div class="buttons flex items-center">
-                <div class="orido_tm_boxed_buttonn">
-                  <a class="anchor" href="#contact"
-                    >Contactar
-                    <img class="svg_send" src="assets/img/images/send_icon.png" alt=""
-                  /></a>
+      <div class="orido_tm_hero w-full relative float-left" id="home">
+        <div class="hero_img" style="margin-top: 65px">
+          <div class="container hero_container">
+            <div class="content relative flex items-center justify-between">
+              <div class="details pr-[50px]">
+                <div class="short mb-[32px]">
+                  <h3 class="main_text_1 main_text">ALMACÉN 52</h3>
+                  <h4 class="main_text main_text_2">(GRUPO COMERCIAL S.A)</h4>
+                  <p class="main_text main_text_3">Sucursal Habana, Cuba.</p>
                 </div>
-                
+                <div class="text mb-[70px]">
+                  <p class="main_text main_text_4">
+                    Proveedor internacional de alimentos y bebidas,
+                    especializados en el mercado cubano. Gracias a nuestra
+                    infraestructura internacional y nacional podemos ofrecerle
+                    precios muy competitivos.
+                  </p>
+                </div>
+                <div class="buttons flex items-center">
+                  <div class="orido_tm_boxed_buttonn">
+                    <a class="anchor" href="#contact"
+                      >Contactar
+                      <img
+                        class="svg_send"
+                        src="assets/img/images/send_icon.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        
       </div>
       <!-- /HERO -->
 
@@ -228,43 +245,32 @@
             class="about_in w-full flex items-center justify-between h-auto mx-auto my-0 flex items-center centrar-left"
           >
             <div class="left width-img img-textil">
-              <img src="assets/img/images/who_we_are_logo.jpg" />
+              <img src="assets/img/images/who_we_are_logo.jpg" alt="" />
             </div>
-            <div class="right letrero ">
+            <div class="right letrero">
               <div class="orido_tm_main_title w-full float-left mb-[10px]">
                 <h3 class="text-white tracking-[-2px] text-[36px] font-bold">
                   ¿Quiénes somos?
                 </h3>
               </div>
               <div class="text w-full float-left">
-                <p
-                  class="text-[rgba(255,255,255,.7)] font-light leading-[26px] letras-pequeña text-left"
-                >
-                ALMACÉN 52 GRUPO COMERCIAL S.A es una empresa constituida en la ciudad de Panamá, cuya actividad principal abarca todo lo relacionado con el comercio y la logística internacional, especialmente de alimentos e insumos para la industria alimentaria. 
-<br><br>
-                En los últimos años nos hemos especializado en la región de América Central y el Caribe, fomentando los vínculos comerciales de la región.
+                <p class="leading-[26px] letras-pequeña text-left">
+                  ALMACÉN 52 GRUPO COMERCIAL S.A es una empresa constituida en
+                  la ciudad de Panamá, cuya actividad principal abarca todo lo
+                  relacionado con el comercio y la logística internacional,
+                  especialmente de alimentos e insumos para la industria
+                  alimentaria.
+                  <br /><br />
+                  En los últimos años nos hemos especializado en la región de
+                  América Central y el Caribe, fomentando los vínculos
+                  comerciales de la región.
                 </p>
               </div>
             </div>
-
-            <!-- <div class="short flex items-center">
-              <div class="orido_tm_boxed_button dosier">
-                <a href="assets/img/cv/CATÁLOGO KARITEX 2024.pdf" download
-                  >Descargar catálogo<img
-                    class="svg"
-                    src="assets/img/svg/paper.svg"
-                    alt=""
-                /></a>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
       <!-- /ABOUT -->
-
-      <!-- COUNTER -->
-
-      <!-- /COUNTER -->
 
       <!-- SERVICE -->
       <div
@@ -275,77 +281,77 @@
           class="orido_tm_service w-full h-auto clear-both float-left px-0 py-[120] bg-[#fafafb]"
         >
           <div class="container">
-            <style>
-              .servicios {
-                display: none;
-              }
-              .ya-no-servicios {
-                display: block;
-              }
-
-              @media screen and (min-width: 768px) {
-                .servicios {
-                  display: block;
-                }
-                .ya-no-servicios {
-                  display: none;
-                }
-              }
-            </style>
-
             <div
               class="orido_tm_main_title orido_tm_main_titles orido_tm_main_ti w-full float-left servicios"
             >
-              <h3 class=" font-bold service_text">
-                Nuestros servicios
-              </h3>
+              <h3 class="font-bold service_text">Nuestros servicios</h3>
             </div>
-            <div class="ya-no-servicios"></div>
             <div
               class="service_list w-full h-auto clear-both float-left mt-[100] relative"
             >
-        <ul class="relative z-[2]">
-          <li class="relative ">
-            <div class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]">
-              <div class="left flex">
-                <span class="number inline-block text-[24px] font-dm transition-all duration-300">01</span>
-                <h3 class="title text-[30px] font-medium pl-[30px] transition-all duration-300" >
-                  Uniforme ejecutivo
-                </h3>
-              </div>
-              <div class="right  flex items-center justify-between" >
-                <div class="buttons flex items-center buttons_service">
-                  <div class="orido_tm_boxed_buttonn">
-                    <a class="anchor" href="#contact" >Contactar
-                      <img class="svg_send" src="assets/img/images/send_black.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-				  </li>
-                <li class="relative ">
-                  <div class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]">
+              <ul class="relative z-[2]">
+                <li class="relative">
+                  <div
+                    class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
+                  >
                     <div class="left flex">
-                      <span class="number inline-block text-[24px] font-dm transition-all duration-300">02</span>
-                      <h3 class="title text-[30px] font-medium pl-[30px] transition-all duration-300">
-                        Uniformes sanitarios
+                      <span
+                        class="number inline-block text-[24px] font-dm transition-all duration-300"
+                        >01</span
+                      >
+                      <h3
+                        class="title text-[24px] font-medium pl-[30px] transition-all duration-300"
+                      >
+                        Tramitación aduanal.
                       </h3>
                     </div>
-                    <div class="right  flex items-center justify-between">
+                    <div class="right flex items-center justify-between">
                       <div class="buttons flex items-center buttons_service">
                         <div class="orido_tm_boxed_buttonn">
-                          <a class="anchor" href="#contact"
+                          <a class="anchor hidden_button" href="#contact"
                             >Contactar
-                            <img class="svg_send" src="assets/img/images/send_black.png" alt=""
-                          /></a>
+                            <img
+                              class="svg_send"
+                              src="assets/img/images/send_black.png"
+                              alt=""
+                            />
+                          </a>
                         </div>
-                        
                       </div>
                     </div>
                   </div>
                 </li>
-                
+                <li class="relative">
+                  <div
+                    class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
+                  >
+                    <div class="left flex">
+                      <span
+                        class="number inline-block text-[24px] font-dm transition-all duration-300"
+                        >02</span
+                      >
+                      <h3
+                        class="title text-[24px] font-medium pl-[30px] transition-all duration-300"
+                      >
+                        Tramitación ante la importadora.
+                      </h3>
+                    </div>
+                    <div class="right flex items-center justify-between">
+                      <div class="buttons flex items-center buttons_service">
+                        <div class="orido_tm_boxed_buttonn">
+                          <a class="anchor hidden_button" href="#contact"
+                            >Contactar
+                            <img
+                              class="svg_send"
+                              src="assets/img/images/send_black.png"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
                 <li class="relative">
                   <div
                     class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
@@ -356,62 +362,58 @@
                         >03</span
                       >
                       <h3
-                        class="title text-[30px] font-medium pl-[30px] transition-all duration-300"
+                        class="title text-[24px] font-medium pl-[30px] transition-all duration-300"
                       >
-                        Uniformes de custodio
+                        Pago a proveedores.
                       </h3>
                     </div>
-                    <div
-                      class="right  flex items-center justify-between"
-                    >
-                      
-                    <div class="buttons flex items-center buttons_service">
-                      <div class="orido_tm_boxed_buttonn">
-                        <a class="anchor" href="#contact"
-                          >Contactar
-                          <img class="svg_send" src="assets/img/images/send_black.png" alt=""
-                        /></a>
+                    <div class="right flex items-center justify-between">
+                      <div class="buttons flex items-center buttons_service">
+                        <div class="orido_tm_boxed_buttonn">
+                          <a class="anchor hidden_button" href="#contact"
+                            >Contactar
+                            <img
+                              class="svg_send"
+                              src="assets/img/images/send_black.png"
+                              alt=""
+                            />
+                          </a>
+                        </div>
                       </div>
-                      
                     </div>
-                    </div>
-
-
-                   
                   </div>
                 </li>
-				<li class="relative">
-					<div
-					  class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
-					>
-					  <div class="left flex">
-						<span
-						  class="number inline-block text-[24px] font-dm transition-all duration-300"
-						  >04</span
-						>
-						<h3
-						  class="title text-[30px] font-medium pl-[30px] transition-all duration-300"
-						>
-						  Módulos de gastonomía
-						</h3>
-					  </div>
-					  <div
-						class="right  flex items-center justify-between"
-					  >
-						
-						<div class="buttons flex items-center buttons_service">
-              <div class="orido_tm_boxed_buttonn">
-                <a class="anchor" href="#contact"
-                  >Contactar
-                  <img class="svg_send" src="assets/img/images/send_black.png" alt=""
-                /></a>
-              </div>
-              
-            </div>
-					  </div>
-					  
-					</div>
-				  </li>
+                <li class="relative">
+                  <div
+                    class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
+                  >
+                    <div class="left flex">
+                      <span
+                        class="number inline-block text-[24px] font-dm transition-all duration-300"
+                        >04</span
+                      >
+                      <h3
+                        class="title text-[24px] font-medium pl-[30px] transition-all duration-300"
+                      >
+                        Extracción del contenedor.
+                      </h3>
+                    </div>
+                    <div class="right flex items-center justify-between">
+                      <div class="buttons flex items-center buttons_service">
+                        <div class="orido_tm_boxed_buttonn">
+                          <a class="anchor hidden_button" href="#contact"
+                            >Contactar
+                            <img
+                              class="svg_send"
+                              src="assets/img/images/send_black.png"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
                 <li class="relative">
                   <div
                     class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
@@ -422,109 +424,150 @@
                         >05</span
                       >
                       <h3
-                        class="title text-[30px] font-medium pl-[30px] transition-all duration-300"
+                        class="title text-[24px] font-medium pl-[30px] transition-all duration-300"
                       >
-                        Lencería
+                        Transportación hasta su local.
                       </h3>
                     </div>
-                    <div
-                      class="right  flex items-center justify-between"
-                    >
-                      
-                    <div class="buttons flex items-center buttons_service">
-                      <div class="orido_tm_boxed_buttonn">
-                        <a class="anchor" href="#contact"
-                          >Contactar
-                          <img class="svg_send" src="assets/img/images/send_black.png" alt=""
-                        /></a>
+                    <div class="right flex items-center justify-between">
+                      <div class="buttons flex items-center buttons_service">
+                        <div class="orido_tm_boxed_buttonn">
+                          <a class="anchor hidden_button" href="#contact"
+                            >Contactar
+                            <img
+                              class="svg_send"
+                              src="assets/img/images/send_black.png"
+                              alt=""
+                            />
+                          </a>
+                        </div>
                       </div>
-                      
                     </div>
-                    </div>
-                    
                   </div>
                 </li>
-                
               </ul>
-              <span class="ccc" style="top: 0px; height: 126px;"  ></span>
+              <span class="ccc" style="top: 0px; height: 126px"></span>
             </div>
           </div>
         </div>
       </div>
-
       <!-- /SERVICE -->
 
       <!-- CATALOGO -->
-      <div class="orido_tm_section w-full h-auto clear-both float-left catalogo_section">
-        <p>Escoja el producto que más le<br> interese de nuestro catálogo y en el<br> menor tiempo posible lo tendrá<br> disponible en su almacén.</p>
+      <div
+        class="orido_tm_section w-full h-auto clear-both float-left catalogo_section"
+      >
+        <p>
+          Escoja el producto que más le<br />
+          interese de nuestro catálogo y en el<br />
+          menor tiempo posible lo tendrá<br />
+          disponible en su almacén.
+        </p>
         <div class="buttons flex items-center buttons_service">
           <div class="orido_tm_boxed_buttonn">
             <a class="anchor" href="#contact"
               >Ver Catálogo
-              <img class="svg_send" src="assets/img/images/file_icon.png" alt=""
-            /></a>
+              <img
+                class="svg_send"
+                src="assets/img/images/file_icon.png"
+                alt=""
+              />
+            </a>
           </div>
-          
         </div>
       </div>
 
-
-       <!-- CONTACT -->
-       <div class="orido_tm_section w-full h-auto clear-both float-left contact_section"id="contact">
-        <p class="main_contact_text">Contactar</p>
-        <p class="second_contact_text">Contacta directamente con nosotros para conocer más sobre nuestros servicios enviándonos un mensaje directo.</p>
-        <div class="buttons flex items-center">
-          <div class="orido_tm_boxed_buttonn">
-            <a class="anchor" href="#contact"
-              >Enviar
-              <img class="svg_send" src="assets/img/images/send_icon.png" alt=""
-            /></a>
-          </div>
-          
+      <!-- CONTACT -->
+      <div
+        class="orido_tm_section w-full h-auto clear-both float-left contact_section"
+        id="contact"
+      >
+        <div class="contact-container">
+          <h1>Contactar</h1>
+          <p>
+            Contacta directamente con nosotros para conocer más sobre<br />
+            nuestros servicios enviándonos un mensaje directo.
+          </p>
+          <form class="contact-form">
+            <textarea
+              placeholder="Cuéntanos ¿cómo podemos ayudarte?"
+            ></textarea>
+            <div class="buttons flex items-center">
+              <div class="orido_tm_boxed_buttonn">
+                <button class="anchor" type="submit">
+                  Enviar
+                  <img
+                    class="svg_send"
+                    src="assets/img/images/send_icon.png"
+                    alt=""
+                  />
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
 
       <!-- FOOTER -->
-      <div class="orido_tm_section w-full h-auto clear-both float-left footer_section">
+      <div
+        class="orido_tm_section w-full h-auto clear-both float-left footer_section"
+      >
         <div class="left_img">
-          <img src="assets/img/images/who_we_are_logo.jpg" alt="">
+          <img src="assets/img/images/who_we_are_logo.jpg" alt="" />
         </div>
         <div class="info_block">
           <div class="info_container">
             <div>
-              <p>Dirección:
-              <p>Ave cuarta 10600 con calle 56 Bella Vista, Edificio F&F Tower piso 33 oficina 33B<br> Panamá, República de Panamá.</p>
+              <p>Dirección:</p>
+              <p>
+                Ave cuarta 10600 con calle 56 Bella Vista, Edificio F&F Tower
+                piso 33 oficina 33B<br />
+                Panamá, República de Panamá.
+              </p>
             </div>
           </div>
           <div class="info_container info_container_margin">
             <div>
-              <p>Sucursal Habana, Cuba.<br>Calle 96A entre 3era y 3era A, Residencial Cecilia, Oficina B2A, Miramar,  Playa.</p>
+              <p>
+                Sucursal Habana, Cuba.<br />Calle 96A entre 3era y 3era A,
+                Residencial Cecilia, Oficina B2A, Miramar, Playa.
+              </p>
             </div>
           </div>
           <div class="info_container info_container_margin">
             <div>
-              <p>Contacto:<br>(+53)54016492</p>
+              <p>Contacto:<br />(+53)54016492</p>
             </div>
           </div>
           <div class="info_container info_container_margin">
             <div>
-              <p>Correo:<br>almacen52ventas@gmail.com </p>
+              <p>Correo:<br />almacen52ventas@gmail.com</p>
             </div>
           </div>
         </div>
         <div class="footer_networks">
-          <div class="appbar_network_ig appbar_network"><a href="/"><img src="assets/img/images/instagram_white.png" alt="instagram"></a></div>
-          <div class="appbar_network"><a href="/"><img src="assets/img/images/facebook_white.png" alt="facebook"></a></div>
+          <div class="appbar_network_ig appbar_network">
+            <a href="/">
+              <img
+                src="assets/img/images/instagram_white.png"
+                alt="instagram"
+              />
+            </a>
+          </div>
+          <div class="appbar_network">
+            <a href="/">
+              <img src="assets/img/images/facebook_white.png" alt="facebook" />
+            </a>
+          </div>
         </div>
       </div>
-        
       <!-- /FOOTER -->
 
       <!-- COPYRIGHT -->
-      <div class="orido_tm_section w-full h-auto clear-both float-left copy_rights">
-          <p>
-            Almacén 52. Todos los derechos reservados 2024
-          </p>
+      <div
+        class="orido_tm_section w-full h-auto clear-both float-left copy_rights"
+      >
+        <p>Almacén 52. Todos los derechos reservados 2024</p>
       </div>
       <!-- /COPYRIGHT -->
 

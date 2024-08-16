@@ -660,9 +660,9 @@ function currentLink(ccc,e){
 	if(!e.length){return false;}
 	var left 		= e.offset().left;
 	var width		= e.outerWidth();
-	var menuleft 	= $('.orido_tm_header .menu').offset().left;
+	var menuleft 	= $('.orido_tm_header .menu ul').offset().left;
 	console.log(left, width, menuleft);
-	ccc.css({left: (left-menuleft-30) + 'px',width: 8 + 'px'});
+	ccc.css({left: (left-menuleft + width/2) + 'px',width: 8 + 'px'});
 }
 
 function filter_hashtag(){
@@ -684,12 +684,11 @@ function filter_hashtag(){
 
 function currentLinkFilter(ccc,e){
 	"use strict";
-	
 	if(!e.length){return false;}
 	var left 		= e.offset().left;
 	var width		= e.outerWidth()+80;
 	var menuleft 	= $('.orido_tm_informations .right .filter').offset().left;
-	ccc.css({left: (left-menuleft-30) + 'px',width: 8 + 'px'});
+	ccc.css({left: (left-menuleft) + 'px',width: 8 + 'px'});
 }
 
 function service_hashtag(){

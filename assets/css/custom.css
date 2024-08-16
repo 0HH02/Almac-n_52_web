@@ -249,8 +249,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: 700;
     background-color: #F18E1A;
     border-radius: 16px;
-    padding: 22px 40px 23px 40px;
-    display: inline-block;
+    padding: 15px 30px 15px 30px;
     white-space: nowrap;
     word-wrap: break-word;
 
@@ -260,6 +259,8 @@ body::-webkit-scrollbar-thumb {
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
+
+
 
 .orido_tm_boxed_button a {
     text-decoration: none;
@@ -637,6 +638,13 @@ body::-webkit-scrollbar-thumb {
     fill: #fff;
 }
 
+.orido_tm_service .service_list ul li:hover a,
+.orido_tm_service .service_list ul li.current a {
+    opacity: 1;
+    visibility: visible;
+}
+
+
 
 
 .orido_tm_service .service_list ul li.mleave .title {
@@ -962,4 +970,8 @@ body::-webkit-scrollbar-thumb {
 
 .orido_tm_mobile_menu .hamburger {
     padding: 0px;
+}
+
+.hidden {
+    display: none;
 }

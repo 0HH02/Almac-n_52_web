@@ -25,15 +25,6 @@
   --tw-content: '';
 }
 
-/*
-1. Use a consistent sensible line-height in all browsers.
-2. Prevent adjustments of font size after orientation changes in iOS.
-3. Use a more readable tab size.
-4. Use the user's configured `sans` font-family by default.
-5. Use the user's configured `sans` font-feature-settings by default.
-6. Use the user's configured `sans` font-variation-settings by default.
-*/
-
 html {
   line-height: 1.5;
   /* 1 */
@@ -656,7 +647,7 @@ h6 {
   }
 
   .orido_tm_hero .short h3 {
-    margin-bottom: 7px;
+    margin-bottom: -10px;
     font-size: 65px;
   }
 
@@ -680,8 +671,8 @@ h6 {
 
   .svg_send {
     display: inline;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
   }
 
   .orido_tm_boxed_button a {
@@ -778,7 +769,7 @@ h6 {
   }
 
   .orido_tm_main_title h3 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .orido_tm_about .short img {
@@ -922,467 +913,6 @@ h6 {
   }
 }
 
-/*Middle Screens*/
-
-@media (max-width: 1040px) {
-  body {
-    font-size: 15px;
-  }
-
-  .mouse-cursor {
-    display: none;
-  }
-
-  #preloader {
-    display: none;
-  }
-
-  .container {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-
-
-  .orido_tm_mobile_menu {
-    display: flex;
-    width: 240.279px;
-    height: 93.002px;
-    flex-shrink: 0;
-  }
-
-  .orido_tm_hero .avatar {
-    display: none;
-  }
-
-  .orido_tm_hero .details {
-    width: 100%;
-    padding-right: 10%;
-    padding-left: 10%;
-  }
-
-  .orido_tm_hero .short h3 {
-    font-size: 40px;
-  }
-
-  .orido_tm_hero .short h3 .svg {
-    left: 0px;
-    height: 25px;
-    width: 25px;
-  }
-
-  .orido_tm_hero .short .job {
-    padding-left: 110px;
-    font-size: 14px;
-  }
-
-  .orido_tm_hero .short .job:before {
-    width: 85px;
-  }
-
-  .orido_tm_boxed_button a {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 12px;
-    padding-bottom: 13px;
-  }
-
-  .orido_tm_boxed_buttonn a {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 12px;
-    padding-bottom: 13px;
-  }
-
-  .orido_tm_hero .orido_tm_simple_button {
-    margin-left: 30px;
-  }
-
-  .orido_tm_simple_button a .svg {
-    margin-left: 0px;
-    height: 20px;
-    width: 20px;
-  }
-
-  .orido_tm_hero .text {
-    margin-bottom: 35px;
-  }
-
-  .orido_tm_follow ul li a {
-    height: 40px;
-    width: 40px;
-  }
-
-  .orido_tm_follow span {
-    font-size: 14px;
-  }
-
-  .orido_tm_hero .orido_tm_follow {
-    bottom: 100px;
-  }
-
-  .orido_tm_down {
-    bottom: 10px !important;
-    left: 20px !important;
-  }
-
-  .orido_tm_about .about_in {
-    flex-direction: column;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .orido_tm_about .left {
-    margin-bottom: 40px;
-    width: 50%;
-    padding-right: 0px;
-  }
-
-  .orido_tm_about .\!left {
-    margin-bottom: 40px;
-    width: 100%;
-    padding-right: 0px;
-  }
-
-  .orido_tm_about .right {
-    width: 100%;
-  }
-
-  .orido_tm_about .\!right {
-    width: 100%;
-  }
-
-  .orido_tm_about .element {
-    display: none;
-  }
-
-  .orido_tm_about .\!element {
-    display: none;
-  }
-
-  .orido_tm_main_title h3 {
-    font-size: 35px;
-  }
-
-  .orido_tm_main_title h3 span:before {
-    bottom: 13px;
-    width: 45px;
-  }
-
-  .orido_tm_about .left .year {
-    margin-top: -75px;
-    font-size: 280px;
-  }
-
-  .orido_tm_about .\!left .year {
-    margin-top: -75px;
-    font-size: 280px;
-  }
-
-  .orido_tm_about .experience {
-    padding-left: 35px;
-    font-size: 15px;
-  }
-
-  .orido_tm_about .name {
-    left: -12px;
-    bottom: -16px;
-    font-size: 47px;
-  }
-
-  .orido_tm_about .\!name {
-    left: -12px;
-    bottom: -16px;
-    font-size: 47px;
-  }
-
-  .orido_tm_about .short {
-    margin-left: 25px;
-    max-width: 115px;
-  }
-
-  .orido_tm_informations {
-    margin-bottom: 70px !important;
-  }
-
-  .orido_tm_informations .informations_inner {
-    flex-direction: column;
-  }
-
-  .orido_tm_informations .left {
-    margin-bottom: 50px;
-    width: 100%;
-    padding-right: 0px;
-  }
-
-  .orido_tm_informations .\!left {
-    margin-bottom: 50px;
-    width: 100%;
-    padding-right: 0px;
-  }
-
-  .orido_tm_informations .right {
-    top: 0px;
-    width: 100%;
-  }
-
-  .orido_tm_informations .\!right {
-    top: 0px;
-    width: 100%;
-  }
-
-  .orido_tm_informations .right .filter .ccc {
-    display: none;
-  }
-
-  .orido_tm_informations .\!right .filter .ccc {
-    display: none;
-  }
-
-  .orido_tm_informations .right .\!filter .ccc {
-    display: none;
-  }
-
-  .orido_tm_informations .right .filter ul li {
-    margin-bottom: 7px;
-  }
-
-  .orido_tm_informations .\!right .filter ul li {
-    margin-bottom: 7px;
-  }
-
-  .orido_tm_informations .right .\!filter ul li {
-    margin-bottom: 7px;
-  }
-
-  .orido_tm_informations .right .filter ul li a .svg {
-    margin-left: 0px;
-    height: 20px;
-    width: 20px;
-  }
-
-  .orido_tm_informations .\!right .filter ul li a .svg {
-    margin-left: 0px;
-    height: 20px;
-    width: 20px;
-  }
-
-  .orido_tm_informations .right .\!filter ul li a .svg {
-    margin-left: 0px;
-    height: 20px;
-    width: 20px;
-  }
-
-  .orido_tm_informations .timelinebox {
-    margin-top: 55px;
-  }
-
-  .orido_tm_informations .skillbox {
-    margin-top: 50px;
-  }
-
-  .orido_tm_service .service_list .list_inner {
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: flex-start;
-  }
-
-  .orido_tm_service .service_list .right .arrow {
-    display: none;
-  }
-
-  .orido_tm_service .service_list .\!right .arrow {
-    display: none;
-  }
-
-  .orido_tm_service .service_list .right .\!arrow {
-    display: none;
-  }
-
-  .orido_tm_service .service_list .left {
-    margin-bottom: 10px;
-    width: 100%;
-  }
-
-  .orido_tm_service .service_list .\!left {
-    margin-bottom: 10px;
-    width: 100%;
-  }
-
-  .orido_tm_service .service_list .right {
-    display: block;
-    width: 100%;
-  }
-
-  .orido_tm_service .service_list .\!right {
-    display: block;
-    width: 100%;
-  }
-
-  .orido_tm_service .service_list .right .text {
-    padding-right: 0px;
-  }
-
-  .orido_tm_service .service_list .\!right .text {
-    padding-right: 0px;
-  }
-
-  .orido_tm_service .service_list .title {
-    padding-left: 10px;
-    font-size: 25px;
-  }
-
-  .orido_tm_service .service_list .number {
-    font-size: 16px;
-  }
-
-  .orido_tm_portfolio .prev_button,
-  .orido_tm_portfolio .next_button {
-    display: none;
-  }
-
-  .orido_tm_portfolio .portfolio_list .title {
-    font-size: 25px;
-  }
-
-  .orido_tm_portfolio .portfolio_list .category {
-    font-size: 15px;
-  }
-
-  .orido_tm_testimonials .testimonials_in {
-    flex-direction: column;
-    align-items: baseline;
-  }
-
-  .orido_tm_testimonials img {
-    margin-bottom: 30px;
-    max-height: 250px;
-    max-width: 250px;
-  }
-
-  .orido_tm_testimonials .info {
-    padding-left: 0px;
-  }
-
-  .orido_tm_testimonials .\!info {
-    padding-left: 0px;
-  }
-
-  .orido_tm_testimonials .text p {
-    font-size: 18px;
-  }
-
-  .orido_tm_testimonials .details .name {
-    margin-bottom: 2px;
-    font-size: 20px;
-  }
-
-  .orido_tm_testimonials .details .\!name {
-    margin-bottom: 2px;
-    font-size: 20px;
-  }
-
-  .orido_tm_testimonials .details .job {
-    font-size: 15px;
-  }
-
-  .orido_tm_news .news_list>ul {
-    margin: 0px;
-  }
-
-  .orido_tm_news .news_list>ul>li {
-    width: 100%;
-    padding-left: 0px;
-  }
-
-  .orido_tm_contact .infobox {
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: flex-start;
-    margin-bottom: 40px;
-  }
-
-  .orido_tm_contact .infobox .video_button img {
-    max-height: 120px;
-    max-width: 120px;
-  }
-
-  .orido_tm_contact .infobox .video_button .svg {
-    height: 20px;
-    width: 20px;
-  }
-
-  .orido_tm_contact .text {
-    margin-bottom: 20px;
-    padding: 0px;
-  }
-
-  .orido_tm_contact .text h3 {
-    margin-bottom: 10px;
-    font-size: 32px;
-  }
-
-  .orido_tm_contact .infobox .video_button {
-    margin-bottom: 20px;
-  }
-
-  .orido_tm_contact .connect {
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: flex-start;
-    padding-left: 30px
-  }
-
-  .orido_tm_contact .connect .left ul li {
-    margin-bottom: 10px;
-    margin-right: 20px;
-  }
-
-  .orido_tm_contact .connect .\!left ul li {
-    margin-bottom: 10px;
-    margin-right: 20px;
-  }
-
-  .orido_tm_contact .connect p {
-    font-size: 20px;
-  }
-
-  .orido_tm_contact .connect .left {
-    margin-bottom: 20px;
-  }
-
-  .orido_tm_contact .connect .\!left {
-    margin-bottom: 20px;
-  }
-
-  .orido_tm_copyright .copyright_inner {
-    flex-direction: column;
-  }
-
-  .orido_tm_copyright .logo {
-    margin-bottom: 10px;
-  }
-
-  .orido_tm_copyright .logo img {
-    max-width: 110px;
-  }
-
-  .orido_tm_contact .element {
-    display: none;
-  }
-
-  .orido_tm_contact .\!element {
-    display: none;
-  }
-
-  .orido_tm_contact .element2 {
-    display: none;
-  }
-}
 
 /*Small screens*/
 
@@ -1993,6 +1523,11 @@ h6 {
 
 .hidden {
   display: none;
+}
+
+.hidden_button {
+  opacity: 0;
+  transition: opacity 300ms ease, visibility 300ms ease;
 }
 
 .h-\[16px\] {
@@ -3351,8 +2886,8 @@ h6 {
 }
 
 .py-\[25px\] {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .pb-\[110px\] {
@@ -4258,12 +3793,11 @@ h6 {
   }
 
   .logo {
-    width: 260px;
+    width: 220px;
   }
 
   .orido_tm_header {
     background-color: white;
-    padding-bottom: 20px;
     padding-left: 6%;
     padding-right: 60px;
   }
@@ -4474,12 +4008,13 @@ h3 {
   }
 }
 
-@media (max-width: 769px) {
-  .letras-pequeña {
-    font-size: 12px;
-  }
-
+.letras-pequeña {
+  font-size: 16px;
+  color: white;
+  line-height: normal;
+  margin-top: 20px;
 }
+
 
 @media (max-width: 769px) {
   .centrar-left {
@@ -4604,9 +4139,9 @@ h3 {
 .menu {
   display: flex;
   align-items: center;
-  width: 350px;
+  justify-content: center;
+  width: 450px;
   background-color: #f8b42b19;
-  padding: 0 50px;
   border-radius: 20px;
   margin: 15px 0;
 }
@@ -4657,8 +4192,8 @@ h3 {
   font-size: 35px;
   line-height: 1.2;
   text-align: center;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 
 .catalogo_section .svg_send {
@@ -4692,6 +4227,7 @@ h3 {
 
 .main_text_1 {
   font-size: 60px;
+  font-weight: bold;
 }
 
 .main_text_2 {
@@ -4700,6 +4236,9 @@ h3 {
 
 .main_text_3 {
   font-size: 40px;
+  font-style: italic;
+  margin-bottom: 5px;
+
 }
 
 .main_text_4 {
@@ -4728,7 +4267,7 @@ h3 {
 }
 
 .left_img {
-  width: 600px;
+  width: 400px;
 
 }
 
@@ -4737,6 +4276,7 @@ h3 {
   background-color: #F18F1A;
   display: flex;
   align-items: end;
+  justify-content: space-around;
   color: #fff;
 }
 
@@ -4744,9 +4284,8 @@ h3 {
   height: 100%;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 650px;
   justify-content: center;
-  padding: 0 auto;
 }
 
 .info_container_margin {
@@ -4757,7 +4296,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
-  width: 300px;
+  width: max-content;
 }
 
 .copy_rights {
@@ -4777,6 +4316,76 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.hero_container {
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.orido_tm_boxed_buttonn {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.contact-container h1 {
+  color: #f2931d;
+  font-size: 34px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact-container p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 550px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form textarea {
+  width: 90%;
+  height: 100px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #f2931d;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact-form button .svg_send {
+  margin-left: 10px;
+}
+
+.contact-form button:hover {
+  background-color: #e27b00;
 }
 
 @media (max-width:480px) {
@@ -4810,4 +4419,99 @@ h1 {
   .copy_rights {
     height: 70px;
   }
+
+  .orido_tm_hero .short h3 {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+
+  .main_text_2 {
+    font-size: 27px;
+  }
+
+  .main_text_3 {
+    font-size: 20px;
+
+  }
+
+  .main_text_4 {
+    font-size: 18px;
+  }
+
+  .orido_tm_main_title h3 {
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+
+  .img-textil img {
+    display: none;
+  }
+
+  .hidden_button {
+    display: none;
+  }
+
+  .servicios {
+    margin: 25px 0;
+    font-weight: bold;
+  }
+
+  .servicios h3 {
+    font-weight: bold;
+  }
+
+  .catalogo_section p {
+    font-size: 30px;
+    max-width: 270px
+  }
+
+  .contact-container p {
+    max-width: 290px;
+  }
+
+  .contact_section {
+    height: 550px;
+  }
+
+  .contact-form textarea {
+    height: 170px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .dropdown_inner {
+    height: 100vh;
+    background: linear-gradient(to bottom, #F8B52B, #F18E1A);
+    font-size: 23px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .dropdown_inner ul {
+    margin-top: 20px;
+  }
+
+  .dropdown_inner a {
+    color: white;
+    margin: 15px 0;
+  }
+
+  .dropdown_inner li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dropdown_inner .line {
+    display: block;
+    height: 2px;
+    width: 130px;
+    background-color: white;
+  }
+
+  .nav_mobile_container {
+    max-width: min-content;
+  }
+
 }

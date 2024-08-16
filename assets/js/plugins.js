@@ -92,8 +92,8 @@
       var e = $(".orido_tm_header .menu .current a");
       var left = e.offset().left;
       var width = e.outerWidth();
-      var menuleft = $(".orido_tm_header .menu").offset().left;
-      ccc.css({ left: left - menuleft- 30 + "px", width: 8 + "px" });
+      var menuleft = $(".orido_tm_header .menu ul").offset().left;
+      ccc.css({ left: left - menuleft + width/2 + "px", width: 8 + "px" });
     },
 
     bindInterval: function () {
