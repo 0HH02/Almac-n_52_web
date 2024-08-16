@@ -294,7 +294,7 @@
               class="service_list w-full h-auto clear-both float-left mt-[100] relative"
             >
               <ul class="relative z-[2]">
-                <li class="relative list-item">
+                <li class="relative list-item1">
                   <div
                     class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
                   >
@@ -314,7 +314,7 @@
                         <div class="orido_tm_boxed_buttonn">
                           <a
                             class="anchor hidden_button"
-                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información"
+                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información%20sobre%20el%20primer%20servicio%20"
                             target="_blank"
                             >Contactar
                             <img
@@ -328,7 +328,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="relative list-item">
+                <li class="relative list-item2">
                   <div
                     class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
                   >
@@ -348,7 +348,7 @@
                         <div class="orido_tm_boxed_buttonn">
                           <a
                             class="anchor hidden_button"
-                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información"
+                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información%20sobre%20el%20segundo%20servicio%20"
                             target="_blank"
                             >Contactar
                             <img
@@ -362,7 +362,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="relative list-item">
+                <li class="relative list-item3">
                   <div
                     class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
                   >
@@ -382,7 +382,7 @@
                         <div class="orido_tm_boxed_buttonn">
                           <a
                             class="anchor hidden_button"
-                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información"
+                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información%20sobre%20el%20tercer%20servicio%20"
                             target="_blank"
                             >Contactar
                             <img
@@ -396,7 +396,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="relative list-item">
+                <li class="relative list-item4">
                   <div
                     class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
                   >
@@ -416,7 +416,7 @@
                         <div class="orido_tm_boxed_buttonn">
                           <a
                             class="anchor hidden_button"
-                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información"
+                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información%20sobre%20el%20cuarto%20servicio%20"
                             target="_blank"
                             >Contactar
                             <img
@@ -430,7 +430,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="relative list-item">
+                <li class="relative list-item5">
                   <div
                     class="list_inner w-full flex items-center justify-between relative pt-[27px] pb-[26px] pl-[25px] pr-[35px]"
                   >
@@ -450,7 +450,7 @@
                         <div class="orido_tm_boxed_buttonn">
                           <a
                             class="anchor hidden_button"
-                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información"
+                            href="https://wa.me/+5350907461?text=Hola%20quiero%20más%20información%20sobre%20el%20quinto%20servicio%20"
                             target="_blank"
                             >Contactar
                             <img
@@ -484,7 +484,18 @@
         </p>
         <div class="buttons flex items-center buttons_service">
           <div class="orido_tm_boxed_buttonn">
-            <a class="anchor" href="#contact"
+            <!-- <a
+              class="anchor"
+              href="assets/cv/catalogo.pdf"
+              download="catalogo.pdf"
+              >Ver Catálogo
+              <img
+                class="svg_send"
+                src="assets/img/images/file_icon.png"
+                alt=""
+              />
+            </a> -->
+            <a class="anchor" href="#"
               >Ver Catálogo
               <img
                 class="svg_send"
@@ -507,8 +518,9 @@
             Contacta directamente con nosotros para conocer más sobre<br />
             nuestros servicios enviándonos un mensaje directo.
           </p>
-          <form class="contact-form">
+          <form class="contact-form" onsubmit="sendMessage(event)">
             <textarea
+              id="message-input"
               placeholder="Cuéntanos ¿cómo podemos ayudarte?"
             ></textarea>
             <div class="buttons flex items-center">

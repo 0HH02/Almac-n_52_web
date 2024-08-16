@@ -655,18 +655,55 @@ function hashtag(){
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-	const listItem = document.querySelector('.list-item');
-	const link = listItem.querySelector('.anchor');
+	const listItem1 = document.querySelector('.list-item1');
+	const link1 = listItem1.querySelector('.list-item1 .anchor');
+
+	const listItem2 = document.querySelector('.list-item2');
+	const link2 = listItem2.querySelector('.list-item2 .anchor');
+
+	const listItem3 = document.querySelector('.list-item3');
+	const link3 = listItem3
+	const listItem4 = document.querySelector('.list-item4');
+	const link4 = listItem4.querySelector('.list-item4 .anchor');
+
+	const listItem5 = document.querySelector('.list-item5');
+	const link5 = listItem5.querySelector('.list-item5 .anchor');
+
+
   
 	function toggleLink() {
 	  const viewportWidth = window.innerWidth;
 	  if (viewportWidth <= 480) { // Para móviles y tabletas
-		listItem.addEventListener('click', function() {
-			window.open(link.href, '_blank');
+		listItem1.addEventListener('click', function() {
+			window.open(link1.href, '_blank');
+		});
+		listItem2.addEventListener('click', function() {
+			window.open(link2.href, '_blank');
+		});
+		listItem3.addEventListener('click', function() {
+			window.open(link3.href, '_blank');
+		});
+		listItem4.addEventListener('click', function() {
+			window.open(link4.href, '_blank');
+		});
+		listItem5.addEventListener('click', function() {
+			window.open(link5.href, '_blank');
 		});
 	  } else { // Para pantallas más grandes
-		listItem.removeEventListener('click', function() {
-			window.open(link.href, '_blank');
+		listItem1.addEventListener('click', function() {
+			window.open(link1.href, '_blank');
+		});
+		listItem2.addEventListener('click', function() {
+			window.open(link2.href, '_blank');
+		});
+		listItem3.addEventListener('click', function() {
+			window.open(link3.href, '_blank');
+		});
+		listItem4.addEventListener('click', function() {
+			window.open(link4.href, '_blank');
+		});
+		listItem5.addEventListener('click', function() {
+			window.open(link5.href, '_blank');
 		});
 	  }
 	}
@@ -677,6 +714,16 @@ document.addEventListener('DOMContentLoaded', function() {
 	// Agregar un listener para ajustar el comportamiento al cambiar el tamaño de la ventana
 	window.addEventListener('resize', toggleLink);
   });
+
+  function sendMessage(event) {
+    event.preventDefault(); // Evita que el formulario se envíe de forma tradicional
+    const message = document.getElementById('message-input').value;
+    const encodedMessage = encodeURIComponent(message); // Codifica el mensaje para que sea seguro en una URL
+    const phoneNumber = '+5350907461'; // Reemplaza con tu número de teléfono de WhatsApp
+    const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    window.open(url, '_blank'); // Abre WhatsApp en una nueva pestaña
+  }
+
 
 function currentLink(ccc,e){
 	"use strict";
