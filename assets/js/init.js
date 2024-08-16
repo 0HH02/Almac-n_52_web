@@ -654,6 +654,30 @@ function hashtag(){
 	
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+	const listItem = document.querySelector('.list-item');
+	const link = listItem.querySelector('.anchor');
+  
+	function toggleLink() {
+	  const viewportWidth = window.innerWidth;
+	  if (viewportWidth <= 480) { // Para móviles y tabletas
+		listItem.addEventListener('click', function() {
+			window.open(link.href, '_blank');
+		});
+	  } else { // Para pantallas más grandes
+		listItem.removeEventListener('click', function() {
+			window.open(link.href, '_blank');
+		});
+	  }
+	}
+  
+	// Inicializar la funcionalidad al cargar la página
+	toggleLink();
+  
+	// Agregar un listener para ajustar el comportamiento al cambiar el tamaño de la ventana
+	window.addEventListener('resize', toggleLink);
+  });
+
 function currentLink(ccc,e){
 	"use strict";
 	
