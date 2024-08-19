@@ -4613,6 +4613,7 @@ h1 {
     overflow-x: scroll;
     /* Hacer deslizable */
     scroll-snap-type: x mandatory;
+    overflow-y: inherit;
     -webkit-overflow-scrolling: touch;
     margin-bottom: 50px;
   }
