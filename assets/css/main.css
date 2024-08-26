@@ -4257,7 +4257,7 @@ h3 {
 }
 
 .menu ul {
-  width: 300px;
+  width: 350px;
   display: flex;
   justify-content: space-between;
 }
@@ -4388,6 +4388,11 @@ h1 {
   background-color: #e27b00;
 }
 
+.text_services {
+  font-size: 20px;
+  padding-right: 30px;
+}
+
 @media (max-width:480px) {
   .left_img {
     width: 320px;
@@ -4426,7 +4431,7 @@ h1 {
   }
 
   .main_text_2 {
-    font-size: 27px;
+    font-size: 23px;
   }
 
   .main_text_3 {
